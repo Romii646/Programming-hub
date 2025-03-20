@@ -1,0 +1,118 @@
+@import url("https://fonts.googleapis.com/css2?family=Funnel+Sans:ital,wght@0,300..800;1,300..800&family=Lexend:wght@100..900&display=swap");
+
+.nav{
+    height: 50px;
+    background: blue;
+}
+
+.nav div{
+    display: inline-block;
+    position: absolute;
+    left: 0;
+    padding: 15px;
+    font-size: 20px;
+    color: white;
+}
+
+.nav ul{
+    position: absolute;
+    right: 5px
+}
+
+.nav ul li{
+    display: inline-block;
+}
+
+.nav ul li a{
+    color: white;
+    padding: 5px;
+}
+
+.home{
+    background-image: url("../images/homeBack.jpg");
+    background-size: cover;
+    height: 100vh;
+}
+
+.home .text-container{
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 90vh;
+}
+
+.about-container{
+    margin:150px auto 0 auto;
+    width: 500px;
+}
+
+.about-content h1 {
+    text-align:center;
+    font-family: 'Funnel Sans', sans-serif;
+    color:red;
+}
+
+.about-content p{
+    text-align: justify;
+    font-family: 'Lexend';
+    color: green;
+}
+
+.service h1{
+    text-align: center;
+    font-family: 'Funnel Sans', sans-serif;
+    margin: 80px auto 0 auto;
+    color: red;
+}
+
+.card-container{
+    margin: 50px auto 0 auto;
+    width: 1028px;
+    align-items: center;
+}
+
+.service .card-container ul{
+    padding: 0;
+}
+
+.service .card-container ul li {
+    list-style: none;
+    display:inline-block;
+    margin: 20px;
+    width: 300px;
+}
+
+.service .card-container ul li img{
+    width: 100%;
+}
+
+.service .card-container ul li p{
+    text-align: justify;
+    font-family: 'Lexend';
+    color: green;
+}
+
+.contact-container{
+    text-align: center;
+    font-size: x-large;
+    margin:150px auto 0 auto;
+    width: 500px; 
+}
+.contact-container h1{
+    text-align: center;
+    font-family: 'Funnel Sans', sans-serif;
+    margin: 80px auto 0 auto;
+    color: red;
+}
+
+.contact-container h1{
+    text-align: center;
+    font-family: 'Funnel Sans', sans-serif;
+    margin: 80px auto 0 auto;
+    color: red;
+}
+
+.contact-container .address-holder{
+    font-family: 'Lexend';
+}
